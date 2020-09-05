@@ -16,7 +16,7 @@
     <RootNamespace>Thinkcode.RabbitMQ.OpenAPI</RootNamespace>
     <Version>1.0.8</Version>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <TargetFrameworks>netstandard2.0;netstandard2.1;netcoreapp2.1;netcoreapp2.2;netcoreapp3.0</TargetFrameworks>
+    <TargetFrameworks>netstandard2.1;net461;</TargetFrameworks>
     <PackageProjectUrl>https://github.com/thinkco/rabbitmq-httpclient-dotnet</PackageProjectUrl>
     <PackageLicenseUrl>https://github.com/thinkco/rabbitmq-httpclient-dotnet/blob/master/LICENSE</PackageLicenseUrl>
     <PackageIconUrl>https://secure.gravatar.com/avatar/a4b9e3ad2402076da42fc66e12e3e1cc?s=512&amp;r=g&amp;d=retro</PackageIconUrl>
@@ -27,24 +27,13 @@
   </PropertyGroup>
 
   <ItemGroup>
-      <PackageReference Include="CompareNETObjects" Version="4.57.0" />
-      <PackageReference Include="JsonSubTypes" Version="1.5.2" />
-      <PackageReference Include="Newtonsoft.Json" Version="12.0.1" />
-      <PackageReference Include="RestSharp" Version="106.6.10" />
-      <PackageReference Include="System.ComponentModel.Annotations" Version="4.5.0" />
+      <PackageReference Include="CompareNETObjects" Version="4.66.0" />
+      <PackageReference Include="JsonSubTypes" Version="1.7.0" />
+      <PackageReference Include="Newtonsoft.Json" Version="12.0.3" />
+      <PackageReference Include="RestSharp" Version="106.11.4" />
+      <PackageReference Include="System.ComponentModel.Annotations" Version="4.7.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Reference Include="System" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Xml.Linq" />
-    <Reference Include="System.Data.DataSetExtensions" />
-    <Reference Include="System.ComponentModel.DataAnnotations" />
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="System.Data" />
-    <Reference Include="System.Runtime.Serialization" />
-    <Reference Include="System.Xml" />
-  </ItemGroup>
 
   <ItemGroup>
     <Folder Include="Converter\" />
